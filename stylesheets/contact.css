@@ -1,0 +1,97 @@
+.contactform-container {
+    width: 100%;
+    max-width: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.contact-div {
+    max-width: 1154px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contactform-info {
+    width: 60%;
+    margin-right: 5%;
+}
+
+.contactform-info h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.contactform-info .contactform-email {
+    color: #8098FF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contactform-info .contactform-para {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-right: auto;
+    font-family: "HC_Light", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.contactform-form .form-block1 {
+    width: 650px;
+    min-width: 500px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.block1-content select option {
+    color: #000;
+}
+
+#block1-name {
+    width: 24%;
+}
+
+#block1-email {
+    width: 42%;
+}
+
+.contactform-form .form-block2 {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-row-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contactNum input[type="number"]::-webkit-inner-spin-button,
+.contactNum input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contactNum input[type="number"] {
+  -moz-appearance: textfield; /* For Firefox */
+}
+
+.contactform-form .form-block3 {
+    margin-bottom: 10px;
+}
+
+/*Footer tagline*/
+#footer .col-3 .footer-tagline h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+}
